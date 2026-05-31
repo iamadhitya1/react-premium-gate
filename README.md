@@ -10,6 +10,10 @@
 
 Three exports. Zero runtime dependencies. Works with any React app.
 
+<div align="center">
+  <img src="./demo.svg" alt="react-premium-gate demo" width="520"/>
+</div>
+
 ---
 
 ## What's included
