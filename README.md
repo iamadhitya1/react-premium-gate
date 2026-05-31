@@ -1,5 +1,6 @@
 # react-premium-gate
 
+[![npm](https://img.shields.io/npm/v/react-premium-gate.svg)](https://www.npmjs.com/package/react-premium-gate)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-iamadhitya1-blue?logo=github)](https://github.com/iamadhitya1)
 ![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
@@ -26,9 +27,7 @@ Plus **Vercel API templates** in `/templates/api/` for Razorpay subscription cre
 ## Install
 
 ```bash
-# Copy the src/ files into your project — no npm package needed
-# Or clone and import directly:
-git clone https://github.com/iamadhitya1/react-premium-gate
+npm install react-premium-gate
 ```
 
 ---
@@ -38,7 +37,7 @@ git clone https://github.com/iamadhitya1/react-premium-gate
 ### `usePro`
 
 ```jsx
-import { usePro } from './react-premium-gate/src'
+import { usePro } from 'react-premium-gate'
 
 function App() {
   const { isPro, loading, activatePro } = usePro({
@@ -56,7 +55,7 @@ function App() {
 ### `<PremiumGate>`
 
 ```jsx
-import { PremiumGate } from './react-premium-gate/src'
+import { PremiumGate } from 'react-premium-gate'
 
 <PremiumGate
   onUpgrade={() => setShowModal(true)}
@@ -85,7 +84,7 @@ import { PremiumGate } from './react-premium-gate/src'
 ### `<PricingModal>`
 
 ```jsx
-import { PricingModal } from './react-premium-gate/src'
+import { PricingModal } from 'react-premium-gate'
 
 const PLANS = [
   { id: 'monthly', label: 'Monthly', price: '₹399',   period: '/mo' },
@@ -145,7 +144,7 @@ RAZORPAY_PLAN_YEARLY=plan_xxx
 
 ```jsx
 import { useState } from 'react'
-import { usePro, PremiumGate, PricingModal } from './react-premium-gate/src'
+import { usePro, PremiumGate, PricingModal } from 'react-premium-gate'
 
 const PLANS = [
   { id: 'monthly', price: '₹399',   period: '/mo' },
