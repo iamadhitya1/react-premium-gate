@@ -1,0 +1,29 @@
+{
+  "name": "react-premium-gate",
+  "version": "1.0.0",
+  "description": "React components and hooks for Razorpay subscription paywalls — PremiumGate, PricingModal, usePro",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "keywords": [
+    "react",
+    "razorpay",
+    "subscription",
+    "paywall",
+    "premium",
+    "saas",
+    "pricing",
+    "india"
+  ],
+  "author": "M Adhitya",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamadhitya1/react-premium-gate"
+  }
+}
