@@ -9,16 +9,17 @@
   },
   "files": ["src", "templates", "README.md", "LICENSE"],
   "keywords": [
-    "react",
-    "razorpay",
-    "subscription",
-    "paywall",
-    "premium",
-    "saas",
-    "pricing",
-    "india"
+    "react", "razorpay", "subscription", "paywall", "premium", "saas",
+    "pricing", "india", "react-paywall", "razorpay-react", "monetization",
+    "react-subscription", "usePro", "PremiumGate", "PricingModal",
+    "react-saas", "indian-payments", "vercel-serverless"
   ],
-  "author": "M Adhitya",
+  "author": {
+    "name": "M. Adhitya",
+    "url": "https://iamadhitya.vercel.app",
+    "email": "adhitya5119@gmail.com"
+  },
+  "homepage": "https://iamadhitya.vercel.app",
   "license": "MIT",
   "peerDependencies": {
     "react": ">=17.0.0"
