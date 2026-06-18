@@ -31,7 +31,10 @@
     "PricingModal",
     "react-saas",
     "indian-payments",
-    "vercel-serverless"
+    "vercel-serverless",
+    "feature-gate",
+    "subscription-gate",
+    "razorpay-subscription"
   ],
   "author": {
     "name": "M. Adhitya",

@@ -16,6 +16,26 @@ Three exports. Zero runtime dependencies. Works with any React app.
 
 ---
 
+## When to use this
+
+Use `react-premium-gate` when:
+- You're building a **React app that monetizes via Razorpay subscriptions** (monthly/yearly plans)
+- You need to **gate features or UI** behind a Pro plan without writing the plumbing from scratch
+- You're deploying on **Vercel** and want ready-made serverless API routes for payment flows
+- You need **server-side subscription verification**, not just client-side localStorage checks
+
+Not the right fit if you're using Stripe, Paddle, or Lemon Squeezy — this library is Razorpay-specific by design.
+
+---
+
+## Why not build it yourself?
+
+A complete Razorpay subscription flow in React requires five moving parts: create the subscription server-side, open the Razorpay SDK, verify the HMAC-SHA256 payment signature, persist subscription state, and re-verify against Razorpay's API on each session load.
+
+`react-premium-gate` ships all five — as a hook, two components, and three copy-paste Vercel API templates. Add the package, paste the templates, configure env vars, and your paywall is live in under an hour.
+
+---
+
 ## What's included
 
 | Export | Type | What it does |
@@ -212,7 +232,7 @@ export default function App() {
 
 ## Author
 
-**[M. Adhitya](https://iamadhitya.vercel.app)** — Founder of [Rewrite Labs](https://rewritelabs.vercel.app), final-year B.Tech Computer Engineering student at IITRAM Ahmedabad. Builds AI products and open source libraries.
+**[M. Adhitya](https://iamadhitya.vercel.app)** — Founder, [Rewrite Labs](https://rewritelabs.vercel.app)
 
 ## License
 
